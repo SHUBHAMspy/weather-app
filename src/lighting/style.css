@@ -1,4 +1,4 @@
-.audio-container{
+.lighting-container{
   background-color: var(--light-gray);
   border-radius: 12px;
   width: 15rem;
@@ -6,28 +6,28 @@
   border: 3px solid var(--light-gray);
   padding: 0.6rem;
 }
-.audio-title{
+.lighting-title{
   color: var(--black);
   font-size: 1.3rem;
   font-weight: var(--weight-700);
 
 }
-.audio-info{
+.lighting-info{
   display: flex;
   justify-content: space-between;
   margin-top: 1.2rem;
 
 }
 .current{
-  font-size: 4.2rem;
+  font-size: 4rem;
   font-weight: 800;
   color: var(--purple);
 }
-.status{
+.lighting-status{
   color: var(--white);
   background-color: var(--green);
   border-radius: 0.5rem;
-  width: 5.9rem;
+  width: 3rem;
   height: 1.9rem;
   padding: 0.4rem 0.5rem;
   font-size: var(--fs-5);

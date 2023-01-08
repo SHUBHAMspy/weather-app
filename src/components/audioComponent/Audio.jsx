@@ -8,8 +8,8 @@ const Audio = () => {
     "total": 5
   }
   return (
-    <div className='airQuality-container'>
-      <span className='airQuality-title'>Audio</span>
+    <div className='audio-container'>
+      <span className='audio-title'>Audio</span>
       <div className='audio-info'>
         <div className='current'>{audioData.current}</div>
         <div className='status'>{audioData.status}</div>
