@@ -1,4 +1,4 @@
-.airQuality-container{
+.temperature-container{
   background-color: var(--light-gray);
   border-radius: 12px;
   width: 14rem;
@@ -6,10 +6,10 @@
   border: 3px solid var(--light-gray);
   padding: 0.6rem;
 }
-.airQuality-title{
+.temperature-title{
   color: var(--black);
   font-size: 1.5rem;
-  font-weight: var(--weight-600);
+  font-weight: bolder;
 
 }
 .info-container{
@@ -18,33 +18,49 @@
   margin-top: 1.2rem;
 
 }
-.current-quality{
+.current-temperature{
   border-radius: 50%;
-  background-color: var(--green);
+  background-color: var(--purple);
   width: 5.2rem;
   height: 5.2rem;
-  padding: 0.6rem;
-  font-weight: 800;
-  font-size: 2.8rem;
+  padding: 1.1rem;
+  font-weight: 700;
+  font-size: 2.35rem;
   color: var(--white);
   margin-right: 1rem;
   text-align: center;
+ 
 }
+.current-temperature >div{
+  display: flex;
+  flex-direction: row;
+  width: 4rem;
+}
+
 .ranges{
   width: 6rem;
   font-size: 1.5rem;
   font-weight: var(--weight-600);
   color: var(--grey);
 }
-.max{
+.high{
   display: flex;
   gap: 0.8rem;
   border-bottom: 1px solid var(--grey);
   margin-bottom: 0.5rem;
  
 }
-.min{
+.low{
   display: flex;
   gap: 0.8rem;
-  margin-bottom: 0.5rem;
+  
+}
+.celcius{
+  font-family: 'Rota'sans-serif;
+  font-size: 1rem;
+}
+img{
+  width: 12px;
+  height: 20px;
+  margin-top: 0.5rem;
 }
