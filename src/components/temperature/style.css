@@ -1,15 +1,15 @@
 .temperature-container{
   background-color: var(--light-gray);
   border-radius: 12px;
-  width: 14rem;
+  width: 15rem;
   height: 10rem;
   border: 3px solid var(--light-gray);
   padding: 0.6rem;
 }
 .temperature-title{
   color: var(--black);
-  font-size: 1.5rem;
-  font-weight: bolder;
+  font-size: 1.3rem;
+  font-weight: var(--weight-700);
 
 }
 .info-container{

@@ -93,3 +93,19 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
+.total{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+.total-number{
+  color: var(--davys-gray);
+  font-size: var(--fs-1);
+  font-weight: 700;
+}
+.total-text{
+  font-size: var(--fs-6);
+  color: var(--grey);
+}

@@ -1,0 +1,35 @@
+.airQuality-container{
+  background-color: var(--light-gray);
+  border-radius: 12px;
+  width: 15rem;
+  height: 10rem;
+  border: 3px solid var(--light-gray);
+  padding: 0.6rem;
+}
+.airQuality-title{
+  color: var(--black);
+  font-size: 1.3rem;
+  font-weight: var(--weight-700);
+
+}
+.audio-info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+
+}
+.current{
+  font-size: 4.2rem;
+  font-weight: 800;
+  color: var(--purple);
+}
+.status{
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 0.5rem;
+  width: 5.9rem;
+  height: 1.9rem;
+  padding: 0.4rem 0.5rem;
+  font-size: var(--fs-5);
+  margin-top: 1rem;
+}
