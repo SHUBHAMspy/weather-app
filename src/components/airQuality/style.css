@@ -1,0 +1,50 @@
+.airQuality-container{
+  background-color: var(--light-gray);
+  border-radius: 12px;
+  width: 14rem;
+  height: 10rem;
+  border: 2px solid var(--light-gray);
+  padding: 0.6rem;
+}
+.airQuality-title{
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: var(--weight-600);
+
+}
+.info-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+
+}
+.current-quality{
+  border-radius: 50%;
+  background-color: var(--green);
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 1rem;
+  font-weight: bolder;
+  font-size: 2.8rem;
+  color: var(--white);
+  margin-right: 1rem;
+  text-align: center;
+}
+.ranges{
+  width: 6rem;
+  font-size: 1.5rem;
+  font-weight: var(--weight-600);
+  color: var(--grey);
+}
+.max{
+  display: flex;
+  gap: 0.8rem;
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 0.5rem;
+ 
+}
+.min{
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+}
