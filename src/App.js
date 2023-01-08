@@ -3,7 +3,8 @@ import './App.css';
 import AirQuality from './components/airQuality/AirQuality';
 import Audio from './components/audioComponent/Audio';
 import Temperature from './components/temperature/Temperature';
-import Lighting from './lighting/Lighting';
+import Lighting from './components/lighting/Lighting';
+import Displays from './components/displays/Displays';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Temperature/>
       <Audio/>
       <Lighting/>
+      <Displays/>
     </div>
   );
 }
