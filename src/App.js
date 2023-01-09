@@ -5,16 +5,35 @@ import Audio from './components/audioComponent/Audio';
 import Temperature from './components/temperature/Temperature';
 import Lighting from './components/lighting/Lighting';
 import Displays from './components/displays/Displays';
+import Logo from './components/logo/Logo';
 
 function App() {
   return (
-    <div className="container">
-      <AirQuality/>
-      <Temperature/>
-      <Audio/>
-      <Lighting/>
-      <Displays/>
-    </div>
+    <>
+      <Logo/>
+      <div className="container">
+        <AirQuality/>
+        <Temperature/>
+        <Audio/>
+        <Lighting/>
+        <Displays/>
+        {/* <div style={{
+           "width": "15rem",
+           "height": "10rem",
+           "backgroundColor": "gray"
+        }} ></div>
+        <div style={{
+           "width": "15rem",
+           "height": "10rem",
+           "backgroundColor": "gray"
+        }} ></div>
+        <div style={{
+           "width": "15rem",
+           "height": "10rem",
+           "backgroundColor": "gray"
+        }} ></div> */}
+      </div>
+    </>
   );
 }
 
