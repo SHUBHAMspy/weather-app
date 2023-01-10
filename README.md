@@ -1,5 +1,5 @@
 # Weather App
-Deployed Link:
+Deployed Link: https://utility-widget-app.netlify.app/
 
 Web view:
 ![Initial View](./public/images/Laptop.png)
@@ -31,7 +31,19 @@ Screenshot:
   |                                        |                                      |                                 
 
 
+## Resolutions used 
+ A flex container which wraps around seemingly simplifies the Ui creation and alignment.
+  In order to make it responsive  along with logo used:
+  - `min-width:1200px`
 
+## Unit tests
+- App.test.js
+- AirQuality.test.js
+- Temparature.test.js
+- Audio.test.js
+- Displays.test.js 
+- Lightning.test.js
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
