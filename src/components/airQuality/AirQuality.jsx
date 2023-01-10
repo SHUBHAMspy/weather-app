@@ -2,6 +2,7 @@ import React from 'react'
 import { faArrowDown, faArrowDownLong, faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './style.css'
+
 const AirQuality = () => {
   const airQualityData = {
     "current":72,
@@ -9,7 +10,7 @@ const AirQuality = () => {
     "min":61
   }
   return (
-    <div className='airQuality-container'>
+    <div className='airQuality-container'data-testid='air-quality' >
       <span className='airQuality-title'>Air Quality</span>
       <div className='info-container'>
         <span className='current-quality'>{airQualityData.current}</span>

@@ -10,7 +10,7 @@ const Temperature = () => {
     "lowest":18
   }
   return (
-    <div className='temperature-container'>
+    <div className='temperature-container' data-testid='temperature-widget'>
       <span className='temperature-title'>Temperature</span>
       <div className='info-container'>
         <div className='current-temperature'>

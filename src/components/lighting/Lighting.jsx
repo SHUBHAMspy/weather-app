@@ -8,7 +8,7 @@ const Lighting = () => {
     "total": 43
   }
   return (
-    <div className='lighting-container '>
+    <div className='lighting-container ' data-testid='lighting-widget'>
       <span className='lighting-title'>Lighting</span>
       <div className='lighting-info'>
         <div className='current'>{lightingData.current}</div>

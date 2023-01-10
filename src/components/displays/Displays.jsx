@@ -8,7 +8,7 @@ const Displays = () => {
     "total": 16
   }
   return (
-    <div className='displays-container '>
+    <div className='displays-container' data-testid='display-widget'>
       <span className='displays-title'>Displays</span>
       <div className='displays-info'>
         <div className='current-total'>

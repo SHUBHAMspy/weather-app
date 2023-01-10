@@ -2,13 +2,14 @@ import React from 'react'
 import './style.css'
 
 const Audio = () => {
+
   const audioData={
     "current":2,
     "status": "PLAYING",
     "total": 5
   }
   return (
-    <div className='audio-container'>
+    <div className='audio-container' data-testid='audio'>
       <span className='audio-title'>Audio</span>
       <div className='audio-info'>
         <div className='current'>{audioData.current}</div>
