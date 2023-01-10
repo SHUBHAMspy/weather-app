@@ -1,6 +1,8 @@
 # Weather App
 Deployed Link:
 
+Web view:
+![Initial View](./public/images/Laptop.png)
 
 Screenshot: 
   | Laptop View                            | Tab View                           |  Mobile View                    |
